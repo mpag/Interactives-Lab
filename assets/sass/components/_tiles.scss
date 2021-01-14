@@ -162,27 +162,6 @@
 				}
 			}
 
-			&.qutStyle {
-				> .image:before {
-					background-image: url('/images/qutThumb.png');
-					background-repeat: repeat;
-				}
-			}
-
-			&.qcStyle {
-				> .image:before {
-					background-image: url('/images/qcThumb.png');
-					background-repeat: repeat;
-				}
-			}
-
-			&.olaStyle {
-				> .image:before {
-					background-image: url('/images/olaThumb.png');
-					background-repeat: repeat;
-				}
-			}
-
 			body:not(.is-touch) & {
 				&:hover {
 					> .image {

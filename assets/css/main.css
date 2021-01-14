@@ -1672,15 +1672,6 @@ button,
       background-color: #ae85ca; }
     .tiles article.style6 > .image:before {
       background-color: #8499e7; }
-    .tiles article.qutStyle > .image:before {
-      background-image: url("/images/qutThumb.png");
-      background-repeat: repeat; }
-    .tiles article.qcStyle > .image:before {
-      background-image: url("/images/qcThumb.png");
-      background-repeat: repeat; }
-    .tiles article.olaStyle > .image:before {
-      background-image: url("/images/olaThumb.png");
-      background-repeat: repeat; }
     body:not(.is-touch) .tiles article:hover > .image {
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
