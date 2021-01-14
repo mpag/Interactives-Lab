@@ -7,7 +7,8 @@
 /* Header */
 
 	#header {
-		@include padding(5em, 0, (3em, 0, -5em, 0));
+		@include padding(2.5em, 0, (0em, 0, -5em, 0));
+		z-index: _misc(z-index-base);
 
 		.logo {
 			display: block;
@@ -39,7 +40,7 @@
 		nav {
 			position: fixed;
 			right: 2em;
-			top: 2em;
+			top: 3em;
 			z-index: _misc(z-index-base);
 
 			ul {
@@ -59,7 +60,6 @@
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: transparentize(_palette(bg), 0.5);
 						border-radius: _size(border-radius);
 						border: 0;
 						font-size: 0.8em;

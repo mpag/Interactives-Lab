@@ -34,7 +34,8 @@
 		}
 
 	body {
-		background: _palette(bg);
+		background: url('/images/background_Mono.jpg');
+		background-repeat: no-repeat;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
