@@ -76,7 +76,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: url("/images/background_Mono.jpg");
+  background: url("images/background_Mono.jpg");
   background-repeat: no-repeat; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
