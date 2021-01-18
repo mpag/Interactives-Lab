@@ -20,9 +20,10 @@
 				border: solid _size(border-width) _palette(border);
 				border-left: 0;
 				border-right: 0;
+				background-color: rgba(255,255,255,0.6);
 
 				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
+					background-color: rgba(255,255,255,0.8);;
 				}
 			}
 		}

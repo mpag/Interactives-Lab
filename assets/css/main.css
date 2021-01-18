@@ -193,7 +193,7 @@ blockquote {
 
 code {
   background: rgba(144, 144, 144, 0.075);
-  border-radius: 4px;
+  border-radius: 0px;
   border: solid 1px #c9c9c9;
   font-family: "Courier New", monospace;
   font-size: 0.9em;
@@ -1025,7 +1025,7 @@ header p {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     background-color: transparent;
     border: solid 1px #c9c9c9;
-    border-radius: 4px;
+    border-radius: 0px;
     width: 2.65em;
     height: 2.65em;
     display: inline-block;
@@ -1320,7 +1320,7 @@ input[type="radio"] {
       font-weight: 900; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      border-radius: 4px;
+      border-radius: 0px;
       border: solid 1px #c9c9c9;
       content: '';
       display: inline-block;
@@ -1344,14 +1344,14 @@ input[type="radio"] {
     box-shadow: 0 0 0 1px #63759C; }
 
 input[type="checkbox"] + label:before {
-  border-radius: 4px; }
+  border-radius: 0px; }
 
 input[type="radio"] + label:before {
   border-radius: 100%; }
 
 /* Box */
 .box {
-  border-radius: 4px;
+  border-radius: 0px;
   border: solid 1px #c9c9c9;
   margin-bottom: 2em;
   padding: 1.5em; }
@@ -1366,7 +1366,7 @@ input[type="radio"] + label:before {
 
 /* Image */
 .image {
-  border-radius: 4px;
+  border-radius: 0px;
   border: 0;
   display: inline-block;
   position: relative; }
@@ -1413,9 +1413,10 @@ table {
   table tbody tr {
     border: solid 1px #c9c9c9;
     border-left: 0;
-    border-right: 0; }
+    border-right: 0;
+    background-color: rgba(255, 255, 255, 0.6); }
     table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(144, 144, 144, 0.075); }
+      background-color: rgba(255, 255, 255, 0.8); }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -1457,7 +1458,7 @@ button,
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 0px;
   border: 0;
   box-shadow: inset 0 0 0 2px #343434;
   color: #343434 !important;
@@ -1563,7 +1564,8 @@ button,
     transition: transform 0.5s ease, opacity 0.5s ease;
     position: relative;
     width: calc(33.3333333333% - 2.5em);
-    margin: 2.5em 0 0 2.5em; }
+    margin: 2.5em 0 0 2.5em;
+    border: 5px solid; }
     .tiles article > .image {
       -moz-transition: -moz-transform 0.5s ease;
       -webkit-transition: -webkit-transform 0.5s ease;
@@ -1572,7 +1574,7 @@ button,
       position: relative;
       display: block;
       width: 100%;
-      border-radius: 4px;
+      border-radius: 0px;
       overflow: hidden; }
       .tiles article > .image img {
         display: block;
@@ -1639,7 +1641,7 @@ button,
       width: 100%;
       height: 100%;
       padding: 1em;
-      border-radius: 4px;
+      border-radius: 0px;
       border-bottom: 0;
       color: #ffffff;
       text-align: center;
@@ -1778,7 +1780,7 @@ button,
           height: 3em;
           line-height: 3em;
           padding: 0 1.5em;
-          border-radius: 4px;
+          border-radius: 0px;
           border: 0;
           font-size: 0.8em;
           font-weight: 900;
