@@ -75,18 +75,21 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-body {
+html {
   background: url("images/background_Mono.jpg");
-  background-repeat: no-repeat; }
-  body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important; }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important; }
 
 /* Type */
 body, input, select, textarea {
@@ -1968,10 +1971,10 @@ body.is-menu-visible #menu {
 
 /* Main */
 #main {
-  padding: 6em 0 6em 0 ; }
+  padding: 1em 0 1em 0 ; }
   @media screen and (max-width: 736px) {
     #main {
-      padding: 0em 0 4em 0 ; } }
+      padding: -2em 0 2em 0 ; } }
 
 /* Footer */
 #footer {
