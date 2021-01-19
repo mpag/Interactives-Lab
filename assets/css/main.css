@@ -79,7 +79,7 @@ html {
   background: url("images/background_Mono.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: 100%; }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -1741,7 +1741,7 @@ button,
     color: inherit;
     font-weight: 900;
     letter-spacing: 0.35em;
-    margin: 0 0 2.5em 0;
+    margin: 0 0 0 0;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
@@ -1973,7 +1973,7 @@ body.is-menu-visible #menu {
 
 /* Main */
 #main {
-  padding: 1em 0 1em 0 ; }
+  padding: 1em 0 0.1em 0 ; }
   @media screen and (max-width: 736px) {
     #main {
       padding: -2em 0 2em 0 ; } }
